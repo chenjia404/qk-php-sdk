@@ -7,7 +7,7 @@
     "require": {
         "php": ">=7.2.0",
         "ext-bcmath": "*",
-        "furqansiddiqui/erc20-php": "dev-master"
+        "furqansiddiqui/erc20-php": "^0.1.1"
     },
     "minimum-stability": "dev",
     "autoload": {
