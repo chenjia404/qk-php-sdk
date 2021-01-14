@@ -14,6 +14,7 @@ class BcMath
     public static function HexDec(string $hex): string
     {
         $dec = 0;
+        $hex = str_replace('0x','',$hex);
         $len = strlen($hex);
         for ($i = 3; $i <= $len; $i++) {
             $dec = bcadd($dec, bcmul(strval(hexdec($hex[$i - 1])), bcpow('16', strval($len - $i))));
