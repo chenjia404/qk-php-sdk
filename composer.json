@@ -1,0 +1,18 @@
+{
+  "name": "chenjia404/qk-php-sdk",
+  "type": "library",
+  "description": "qk-php-sdk",
+  "homepage": "https://github.com/chenjia404/qk-php-sdk",
+  "license": "MIT",
+    "require": {
+        "php": ">=7.2.0",
+        "ext-bcmath": "*",
+        "furqansiddiqui/erc20-php": "^0.1.4"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "quarkblockchain\\": ["src"]
+        }
+    }
+}
