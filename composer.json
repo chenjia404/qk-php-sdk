@@ -1,8 +1,8 @@
 {
-  "name": "chenjia404/qk-php-sdk",
+  "name": "chenjia404/qki-php-sdk",
   "type": "library",
-  "description": "qk-php-sdk",
-  "homepage": "https://github.com/chenjia404/qk-php-sdk",
+  "description": "qki-php-sdk",
+  "homepage": "https://github.com/chenjia404/qki-php-sdk",
   "license": "MIT",
     "require": {
         "php": ">=8.0",
